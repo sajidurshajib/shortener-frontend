@@ -1,0 +1,28 @@
+.Nav {
+    padding: 0 15px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.Nav span a {
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 60px;
+}
+.Nav ul {
+    list-style-type: none;
+    float: right;
+    overflow: hidden;
+    margin: 0 60px 0 0;
+    padding: 0;
+}
+.Nav ul li {
+    float: left;
+    padding: 0 20px;
+}
+.Nav ul li a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 500;
+}

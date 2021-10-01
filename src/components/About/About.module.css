@@ -1,0 +1,29 @@
+.About {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Text {
+    margin: 100px 60px;
+    padding: 10px;
+    position: relative;
+    animation: slide 1000ms;
+}
+.Text h1 {
+    font-size: 80px;
+    margin: 0;
+}
+.Text h4 {
+    font-size: 34px;
+    margin: 0;
+    font-weight: 200;
+}
+@keyframes slide {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0;
+    }
+}
