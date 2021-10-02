@@ -1,0 +1,49 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.wrapper h2 {
+    text-transform: uppercase;
+    display: block;
+    margin: 25px 0;
+    padding-bottom: 2px;
+    border-bottom: 4px solid var(--dark);
+    min-width: 30px;
+    max-width: 100px;
+}
+.inputWrapper input {
+    width: 100%;
+    border: none;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid var(--dark);
+    padding: 5px 0;
+    margin-top: 10px;
+}
+.inputWrapper label {
+    font-size: 12px;
+    position: relative;
+    bottom: 30px;
+    pointer-events: none;
+    transition: 200ms;
+}
+.inputWrapper input:focus + label {
+    bottom: 50px;
+}
+
+.wrapper button {
+    background: transparent;
+    border: none;
+    outline: 0;
+    border: 2px solid var(--dark);
+    padding: 5px 15px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    display: block;
+    min-width: 30px;
+    max-width: 100px;
+    cursor: pointer;
+}
