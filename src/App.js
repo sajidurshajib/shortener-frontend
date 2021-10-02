@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Login from './pages/Login'
-import Profile from './pages/Profile'
-import Register from './pages/Register'
+import LoginPage from './pages/LoginPage'
+import ProfilePage from './pages/ProfilePage'
+import RegisterPage from './pages/RegisterPage'
 
 const App = () => {
     return (
@@ -13,13 +13,13 @@ const App = () => {
                         <Home />
                     </Route>
                     <Route path="/profile">
-                        <Profile />
+                        <ProfilePage />
                     </Route>
                     <Route path="/register">
-                        <Register />
+                        <RegisterPage />
                     </Route>
                     <Route path="/login">
-                        <Login />
+                        <LoginPage />
                     </Route>
                 </Switch>
             </Router>
