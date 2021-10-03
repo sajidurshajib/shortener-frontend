@@ -1,3 +1,12 @@
 .Profile {
     padding: 0 75px;
 }
+.character {
+    margin-top: 70px;
+}
+.character h2 {
+    text-align: center;
+}
+.character h2 span {
+    font-weight: 200;
+}

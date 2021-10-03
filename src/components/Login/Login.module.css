@@ -10,9 +10,20 @@
     display: block;
     margin: 25px 0;
     padding-bottom: 2px;
-    border-bottom: 4px solid var(--dark);
-    min-width: 30px;
-    max-width: 100px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.wrapper h2::before {
+    position: absolute;
+    content: '';
+    height: 4px;
+    border-radius: 4px;
+    width: 30%;
+    background: var(--dark);
+    bottom: -4px;
+    left: 35%;
+    margin: 0 auto;
 }
 .inputWrapper input {
     width: 100%;
@@ -39,11 +50,10 @@
     border: none;
     outline: 0;
     border: 2px solid var(--dark);
-    padding: 5px 15px;
+    padding: 7px 15px;
     margin: 10px 0;
     text-transform: uppercase;
     display: block;
-    min-width: 30px;
-    max-width: 100px;
+    width: 100%;
     cursor: pointer;
 }
